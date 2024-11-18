@@ -6,6 +6,8 @@
   import Portfolio from "./components/Portfolio.vue";
   import Footer from "./components/Footer.vue";
 
+  import Hello3 from "./assets/images/illustrations/hello3.svg"
+
   window.addEventListener("scroll", function () {
     var elements = document.querySelectorAll(
       ".animate-fade-in-right, .animate-slide-in-left, .animate-zoom-in, .animate-fade-in-top"
@@ -28,7 +30,7 @@
       class="flex flex-col lg:flex-row gap-10 justify-center items-center px-5 lg:px-0">
       <img
         class="img-hor-vert min-w-96 p-14 lg:p-0"
-        src="./assets/images/illustrations/hello3.svg"
+        :src="Hello3"
         draggable="false" />
 
       <FirstText />

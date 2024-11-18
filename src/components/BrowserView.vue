@@ -46,6 +46,7 @@
 
     containerCover.value.classList.toggle("bg-black");
     containerCover.value.classList.toggle("bg-opacity-40");
+    containerDetails.value.classList.toggle("-bottom-20");
     containerDetails.value.classList.toggle("-bottom-0");
   }
 
