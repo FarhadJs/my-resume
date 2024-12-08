@@ -18,10 +18,7 @@
       <pre class="-mr-12 lg:-mr-0 text-sm lg:text-base">
       سن : 20
       ایمیل : farhadfallahi2004@outlook.com
-      تلگرام : Farhad_Fallahi
       شماره تلفن : 4531 330 0923
-      آدرس : یزد، میدان آزادی، پل نواب
-      وضعیت : در دسترس
       </pre>
     </div>
     <img
