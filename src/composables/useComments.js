@@ -3,8 +3,8 @@ import { ref } from "vue";
 import axios from "axios";
 
 const API_URL = 
-// "http://localhost:3000/api/comments";
-"https://farhadfallahi.liara.run/api/comments";
+"http://localhost:3000/api/comments";
+// "https://farhadfallahi.liara.run/api/comments";
 
 export function useComments() {
   const comments = ref([]);
