@@ -1,9 +1,5 @@
-// filepath: /home/raiden/Documents/Projects/My Projects/Vue/my-present-website/src/main.js
-import { createApp } from "vue";
-import App from "./App.vue";
-import router from "./router";
-import "./style.css";
+import { createApp } from 'vue'
+import './style.css'
+import App from './App.vue'
 
-const app = createApp(App);
-
-app.use(router).mount("#app");
+createApp(App).mount('#app')
