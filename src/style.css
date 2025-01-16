@@ -1,3 +1,4 @@
+/* filepath: /home/raiden/Documents/Projects/My Projects/Vue/my-present-website/src/assets/tailwind.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,8 +9,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: black;
+  background-color: gray;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,33 +20,78 @@
 
 a {
   font-weight: 500;
-  color: #fff;
+  color: #bb86fc;
   text-decoration: inherit;
-  @apply transition-all;
 }
 a:hover {
-  color: #535bf2;
+  color: #3700b3;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  /* place-items: center; */
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #121212;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 h1 {
-  @apply text-2xl lg:text-6xl font-bold;
+  font-size: 3.2em;
+  line-height: 1.1;
 }
-h2 {
-  @apply text-xl lg:text-5xl font-bold;
-}
-h3 {
-  @apply text-lg lg:text-3xl font-bold;
-}
-h4 {
-  @apply text-sm lg:text-xl font-bold;
-}
+
 button {
-  @apply transition-all duration-500;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1f1f1f;
+  color: rgba(255, 255, 255, 0.87);
+  cursor: pointer;
+  transition: border-color 0.25s, background-color 0.25s;
 }
-p {
-  @apply text-sm lg:text-xl;
-  /* word-break: break-all; */
-  overflow-wrap: break-word;
+button:hover {
+  border-color: #bb86fc;
+  background-color: #29008a;
+  @apply bg-opacity-100;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#app {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav {
+  background-color: #1f1f1f;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  color: rgba(255, 255, 255, 0.87);
+  margin: 0 1rem;
+}
+nav a:hover {
+  color: #bb86fc;
 }
 
 @media (prefers-color-scheme: light) {
@@ -53,136 +99,30 @@ p {
     color: #213547;
     background-color: #ffffff;
   }
+  a {
+    color: #646cff;
+  }
   a:hover {
     color: #747bff;
   }
   button {
     background-color: #f9f9f9;
+    color: #213547;
   }
-}
-
-/* Animations */
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
+  button:hover {
+    border-color: #646cff;
+    background-color: #e0e0e0;
   }
-  100% {
-    opacity: 1;
+  .card {
+    background-color: #ffffff;
   }
-}
-
-@keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(7%);
+  nav {
+    background-color: #f9f9f9;
   }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
+  nav a {
+    color: #213547;
   }
-}
-@keyframes fadeInTop {
-  0% {
-    opacity: 0;
-    transform: translateY(-7%);
+  nav a:hover {
+    color: #646cff;
   }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes slideInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-7%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes zoomIn {
-  0% {
-    opacity: 0;
-    transform: scale(0);
-  }
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-@keyframes FadeInFromRight {
-  0% {
-    opacity: 0;
-    transform: translateX(7%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-/* Class Customized */
-
-.animate-fade-in {
-  opacity: 0;
-}
-
-.animate-fade-in-right {
-  opacity: 0;
-  transform: translateX(7%);
-}
-
-.animate-fade-in-top {
-  opacity: 0;
-  transform: translateY(-7%);
-}
-
-.animate-slide-in-left {
-  opacity: 0;
-  transform: translateX(-7%);
-}
-
-.animate-zoom-in {
-  opacity: 0;
-  transform: scale(0);
-}
-
-.visible.animate-fade-in {
-  animation: fadeIn 1s ease-in-out;
-  opacity: 1;
-}
-
-.visible.animate-fade-in-right {
-  animation: fadeInRight 1s ease-in-out;
-  opacity: 1;
-  transform: translateX(0);
-}
-
-.visible.animate-fade-in-top {
-  animation: fadeInTop 1s ease-in-out;
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.visible.animate-slide-in-left {
-  animation: slideInLeft 1s ease-in-out;
-  opacity: 1;
-  transform: translateX(0);
-}
-
-.visible.animate-zoom-in {
-  animation: zoomIn 1s ease-in-out;
-  opacity: 1;
-  transform: scale(1);
-}
-
-/* Classes for first time running */
-
-.fade-in-right {
-  animation: fadeInRight 1s ease-in-out;
 }
