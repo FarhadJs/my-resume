@@ -1,3 +1,38 @@
-# This is my resume website to present
+# My Resume App
 
-This template is only for presenting myself and a sample site for my resume and introducing myself, I will upload projects or things that need to be included in the site, including data related to my resume and my communication methods with Examples of projects and work experience, etc.
+This is a web application built with Express.js and MongoDB to manage resumes.
+
+## Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/your-username/my-resume-mongo-app.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```sh
+   cd my-resume-app
+   
+   ```
+
+3. Install dependencies:
+
+   ```sh
+   npm install
+   ```
+
+## Usage
+
+1. Start the application:
+
+   ```sh
+   npm start
+   ```
+
+2. Open your browser and navigate to `http://localhost:3000`.
+
+## License
+
+This project is licensed under the MIT License.
