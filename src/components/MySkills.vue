@@ -51,7 +51,7 @@
           <h4 class="mb-3">React</h4>
           <div
             class="w-80 h-4 rounded-md bg-white flex justify-end items-center">
-            <div class="w-72 h-4 rounded-md bg-sky-400"></div>
+            <div class="w-52 h-4 rounded-md bg-sky-400"></div>
           </div>
         </div>
 

@@ -15,16 +15,20 @@
         داشته باشم، و از همه مهم تر، کارایی بهتر و بهبود نرم افزار ها در این
         روند پیشرفت تکنولوژی به همراه داشته باشم :)
       </p>
-      <pre class="-mr-12 lg:-mr-0 text-sm lg:text-base">
-      سن : 20
-      ایمیل : farhadfallahi2004@outlook.com
-      شماره تلفن : 4531 330 0923
-      </pre>
+      <p class="-mr-12 lg:-mr-0 text-sm lg:text-base flex flex-col gap-3">
+        <span>
+          سن : 20
+        </span>
+        <span>
+          ایمیل : farhadfallahi2004@outlook.com
+        </span>
+        <span>
+          شماره تلفن : 4531 330 0923
+        </span>
+      </p>
     </div>
-    <img
-      src="../assets/images/avatar.jpg"
-      class="w-96 h-96 rounded drop-shadow-xl animate-slide-in-left scale-110 p-10" 
-      draggable="false"/>
+    <img src="../assets/images/avatar.jpg" style="border-radius: 50px;"
+      class="w-96 h-96 drop-shadow-xl animate-slide-in-left scale-110 p-10" draggable="false" />
   </div>
 </template>
 

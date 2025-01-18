@@ -9,9 +9,9 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 <template>
   <div class="text-white">
-    <pre class="text-2xl fade-in-right" style="animation-duration: 300ms">
+    <p class="text-2xl fade-in-right" style="animation-duration: 300ms">
 درود!
-</pre>
+</p>
     <h1 class="fade-in-right" style="animation-duration: 500ms">
       به صفحه من خوش آمدید
     </h1>

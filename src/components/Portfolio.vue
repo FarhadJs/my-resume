@@ -4,7 +4,7 @@
     <h1>نمونه کارها</h1>
 
     <div
-      class="flex flex-col lg:flex-row gap-20 lg:gap-44 mt-20 lg:mt-0 items-center mb-44">
+      class="flex flex-col lg:flex-row gap-20 lg:gap-5 mt-20 lg:mt-0 items-center mb-44">
       <BrowserView
         v-for="(project, i) in Project_urls"
         :key="i"
@@ -32,11 +32,11 @@
       url: "https://coffeeshopmenulist.netlify.app/",
       cover: CoffeeShopCover,
     },
-    {
-      Title: "Sabzineh",
-      url: "https://sabzineh.netlify.app/",
-      cover: SabzinehCover,
-    },
+    // {
+    //   Title: "Sabzineh",
+    //   url: "https://sabzineh.netlify.app/",
+    //   cover: SabzinehCover,
+    // },
   ];
 </script>
 
