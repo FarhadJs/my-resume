@@ -19,7 +19,7 @@
       </p>
       <p class="contact-details text-sm lg:text-base flex flex-col gap-3">
         <span>
-          سن : 20
+          سن : 22
         </span>
         <span>
           ایمیل : farhadfallahi2004@outlook.com
