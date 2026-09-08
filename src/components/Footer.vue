@@ -1,31 +1,29 @@
 <template>
-  <div class="py-10 flex flex-col justify-center items-center text-center bg-white bg-opacity-5">
-    <h2 class="mb-5">فرهاد فلاحی</h2>
-    <p>توسعه دهنده فرانت اند، دانشجوی مهندسی کامپیوتر، طراح UI</p>
-
-    <div class="mt-10 flex flex-col gap-6">
-      <h3>راه های ارتباطی با من</h3>
-      <ul class="flex gap-4 justify-center items-center text-2xl">
-        <ul class="flex gap-4 fade-in-right text-2xl" style="animation-duration: 1200ms">
+  <footer class="site-footer page-width">
+    <div class="footer-cta">
+      <p class="mini-label">HAVE A PROJECT?</p>
+      <h2>بیایید چیزی<br /><em>باورنکردنی بسازیم.</em></h2>
+      <a class="primary-button" href="mailto:farhadfallahi2004@outlook.com">ارتباط با من <span>↗</span></a>
+    </div>
+    <div class="footer-bottom">
+      <span>© ۲۰۲۵ FARHAD FALLAHI</span>
+      <div class="social-links">
           <a href="https://x.com/FarhadFallahiJs">
             <FontAwesomeIcon :icon="faXTwitter" />
           </a>
           <a href="https://github.com/FarhadJs">
             <FontAwesomeIcon :icon="faGithub" />
           </a>
-          <!-- <a>
-        <FontAwesomeIcon :icon="faInstagram" />
-      </a> -->
           <a href="https://www.linkedin.com/in/farhad-fallahi">
             <FontAwesomeIcon :icon="faLinkedin" />
           </a>
           <a href="https://t.me/Farhad_Fallahi">
             <FontAwesomeIcon :icon="faTelegram" />
           </a>
-        </ul>
-      </ul>
+      </div>
+      <span>BUILT WITH VUE / <b>♥</b></span>
     </div>
-  </div>
+  </footer>
 </template>
 
 <script lang="ts" setup>

@@ -8,15 +8,21 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 </script>
 
 <template>
-  <div class="text-white first-text">
-    <p class="hero-greeting fade-in-right" style="animation-duration: 300ms">درود، من فرهاد هستم.</p>
-    <h1 class="fade-in-right" style="animation-duration: 500ms">
-      تجربه های دیجیتال<br /><em>با دقت ساخته می شوند.</em>
+  <div class="first-text">
+    <p class="hero-greeting fade-in-right" style="animation-duration: 300ms">سلام.</p>
+    <h1 class="glitch-title fade-in-right" data-text="فرهاد فلاحی" style="animation-duration: 500ms">
+      فرهاد فلاحی
     </h1>
+    <p class="hero-greeting fade-in-right text-left" style="animation-duration: 300ms">هستم</p>
+    <h2 class="hero-role fade-in-right" style="animation-duration: 700ms">Full-stack developer<span>.</span></h2>
     <p class="hero-description fade-in-right" style="animation-duration: 900ms">
-      توسعه دهنده فرانت اند و طراح UI که برای ساخت وبسایت های سریع، قابل استفاده و به یادماندنی تلاش می کند.
+      از ایده تا محصول، ساده و دقیق.
     </p>
-    <ul class="flex gap-4 fade-in-right text-2xl" style="animation-duration: 1200ms">
+    <div class="hero-actions fade-in-right" style="animation-duration: 1200ms">
+      <a class="primary-button" href="#work">دیدن پروژه ها <span>↗</span></a>
+      <a class="text-button" href="mailto:farhadfallahi2004@outlook.com">ارتباط <span>→</span></a>
+    </div>
+    <ul class="social-links fade-in-right" style="animation-duration: 1300ms">
       <a aria-label="X" href="https://x.com/FarhadFallahiJs">
         <FontAwesomeIcon :icon="faXTwitter" />
       </a>

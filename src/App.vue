@@ -7,8 +7,6 @@ import MySkills from "./components/MySkills.vue";
 import Portfolio from "./components/Portfolio.vue";
 import Footer from "./components/Footer.vue";
 
-import Hello3 from "./assets/images/illustrations/hello3.svg"
-
 const revealOnScroll = () => {
   var elements = document.querySelectorAll(
     ".animate-fade-in-right, .animate-slide-in-left, .animate-zoom-in, .animate-fade-in-top"
@@ -34,25 +32,34 @@ onUnmounted(() => window.removeEventListener("scroll", revealOnScroll));
 
 <template>
   <div dir="rtl" class="site-shell">
+    <div class="noise-layer" aria-hidden="true"></div>
     <header class="site-header page-width">
-      <a href="#top" class="brand-mark">FF<span>.</span></a>
+      <a href="#top" class="brand-mark"><span class="brand-prompt">&gt;_</span> farhad.dev</a>
       <nav class="site-nav" aria-label="ناوبری اصلی">
-        <a href="#about">درباره من</a>
-        <a href="#skills">مهارت ها</a>
-        <a href="#work">نمونه کارها</a>
+        <a href="#about"><span>01</span> درباره من</a>
+        <a href="#skills"><span>02</span> مهارت ها</a>
+        <a href="#work"><span>03</span> پروژه ها</a>
       </nav>
-      <a class="header-contact" href="mailto:farhadfallahi2004@outlook.com">ارتباط <span>↗</span></a>
+      <a class="header-contact" href="mailto:farhadfallahi2004@outlook.com"><i></i> آماده همکاری</a>
     </header>
 
     <main id="top">
-      <section class="hero page-width">
+      <section class="hero page-width grid-background">
         <div class="hero-copy">
-          <p class="eyebrow">توسعه دهنده فرانت اند / یزد، ایران</p>
           <FirstText />
         </div>
-        <div class="hero-art">
-      <img class="img-hor-vert min-w-96 p-14 lg:p-0" :src="Hello3" draggable="false" />
-          <span class="hero-index">۰۱ — ۰۴</span>
+        <div class="terminal-window" aria-label="نمونه کد">
+          <div class="terminal-bar"><span class="terminal-dots"><i></i><i></i><i></i></span><span>farhad@studio:~</span><span>⌘ K</span></div>
+          <div class="terminal-code" dir="ltr">
+            <p><span class="code-muted">01</span> <b>const</b> developer = {</p>
+            <p class="indent"><span class="code-key">name:</span> <span class="code-string">"Farhad Fallahi"</span>,</p>
+            <p class="indent"><span class="code-key">role:</span> <span class="code-string">"Full-stack developer"</span>,</p>
+            <p class="indent"><span class="code-key">stack:</span> [<span class="code-string">"Vue"</span>, <span class="code-string">"React"</span>,</p>
+            <p class="indent"><span class="code-string">"Nest.js"</span>, <span class="code-string">"MongoDB"</span>],</p>
+            <p class="indent"><span class="code-key">available:</span> <span class="code-boolean">true</span></p>
+            <p>};<span class="cursor"></span></p>
+          </div>
+          <div class="terminal-status"><span>BUILD: PASS</span><span>v1.0.0</span><span>100%</span></div>
         </div>
       </section>
 

@@ -1,10 +1,11 @@
 <template>
-  <div
-    class="mt-44 lg:mt-96 flex flex-col justify-center items-center text-center animate-fade-in-top">
-    <h1>نمونه کارها</h1>
-
-    <div
-      class="flex flex-col lg:flex-row gap-20 lg:gap-5 mt-20 lg:mt-0 items-center mb-44">
+  <section class="content-section page-width portfolio-section">
+    <div class="section-label"><span>04</span> / selected work</div>
+    <div class="portfolio-heading">
+      <h2>پروژه های <em>منتخب.</em></h2>
+      <p>منتخبی از پروژه های واقعی و پیش نمایش های مفهومی.</p>
+    </div>
+    <div class="portfolio-grid" aria-label="پروژه های منتخب">
       <BrowserView
         v-for="(project, i) in Project_urls"
         :key="i"
@@ -12,10 +13,10 @@
         :title="project.Title"
         :projectUrl="project.url" />
     </div>
-  </div>
+  </section>
 </template>
 
-<script lang="ts" setup>
+<script setup>
   import BrowserView from "./BrowserView.vue";
   import CoffeeShopCover from "../assets/images/My_Projects/coffee-menu.png";
   import SweetPicCover from "../assets/images/My_Projects/sweet-cupcake.png";
@@ -32,11 +33,11 @@
       url: "https://coffeeshopmenulist.netlify.app/",
       cover: CoffeeShopCover,
     },
-    // {
-    //   Title: "Sabzineh",
-    //   url: "https://sabzineh.netlify.app/",
-    //   cover: SabzinehCover,
-    // },
+    {
+      Title: "Sabzineh / Plant Store",
+      url: "https://sabzineh.netlify.app/",
+      cover: SabzinehCover,
+    },
   ];
 </script>
 

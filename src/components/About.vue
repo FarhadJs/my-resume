@@ -2,11 +2,12 @@
 
 <template>
   <div class="content-section page-width about-section">
-    <div class="section-label">۰۲ / درباره من</div>
+    <div class="section-label"><span>01</span> / درباره من</div>
     <div class="about-copy animate-fade-in-right">
-      <h2 class="fade-in">کد تمیز، نگاه انسانی.</h2>
+      <p class="mini-label">ABOUT.ME</p>
+      <h2 class="fade-in">کد تمیز.<br /><em>نگاه انسانی.</em></h2>
       <p class="fade-in lg:mt-5">
-        توسعه دهنده فرانت اند با دو سال سابقه فعالیت و سابقه کار در حوزه برنامه
+        توسعه دهنده فول استک با دو سال سابقه فعالیت و سابقه کار در حوزه برنامه
         نویسی و دانشجوی مهندسی نرم افزار در دانشگاه امام جواد یزد. سابقه فعالیت
         در پارک علم و فناوری (شرکت وستا صنعت کویر یزد) به عنوان کار آموز و سپس
         انجام چند پروژه خصوصی و نمونه کار در رزومه. هدف من در برنامه نویسی و
@@ -28,7 +29,10 @@
         </span>
       </p>
     </div>
-    <img src="../assets/images/avatar.jpg" class="about-image drop-shadow-xl animate-slide-in-left" draggable="false" alt="پرتره فرهاد فلاحی" />
+    <div class="portrait-frame animate-slide-in-left">
+      <img src="../assets/images/avatar.png" class="about-image" draggable="false" alt="پرتره فرهاد فلاحی" />
+      <span class="portrait-caption">FARHAD / ۲۰۲۵</span>
+    </div>
   </div>
 </template>
 

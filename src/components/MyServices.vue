@@ -1,22 +1,28 @@
 <template>
-  <div class="flex flex-col justify-center items-center text-center mt-20 lg:mt-96 animate-fade-in-top">
-    <h1>خدمات من</h1>
-
-    <p class="my-8 lg:my-20 p-5 lg:w-[700px]">
-      من خدمات مناسب برای هر وب سایت یا برنامه ارائه می دهم. می توانم سرعت تحویل طرح ها و پروژه های شمارو به حداکثر برسانم.
-    </p>
-    <div class="flex flex-col lg:flex-row gap-44">
-      <div class="flex flex-col gap-5 justify-center items-center">
-        <img src="../assets/images/services/web-design.svg" />
-        <h3>توسعه وبسایت</h3>
+  <div class="content-section page-width services-section animate-fade-in-top">
+    <div class="section-label"><span>02</span> / what I do</div>
+    <div class="services-intro">
+      <h2>از ایده تا <em>محصول.</em></h2>
+      <p>برای هر مرحله از ساخت محصول دیجیتال، یک راه حل دقیق و کاربردی دارم.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <span class="service-index">01</span>
+        <span class="service-icon">&lt;/&gt;</span>
+        <h3>توسعه وب</h3>
+        <p>ساخت وبسایت های سریع و مقیاس پذیر با معماری تمیز.</p>
       </div>
-      <div class="flex flex-col gap-5 justify-center items-center">
-        <img src="../assets/images/services/ui-ux.svg" />
-        <h3>طراحی UI و UX</h3>
+      <div class="service-card">
+        <span class="service-index">02</span>
+        <span class="service-icon">◈</span>
+        <h3>محصول و UI</h3>
+        <p>تبدیل مسئله های پیچیده به تجربه های ساده و زیبا.</p>
       </div>
-      <div class="flex flex-col gap-5 justify-center items-center">
-        <img src="../assets/images/services/graphic-design.svg" />
-        <h3>طراحی گرافیک</h3>
+      <div class="service-card">
+        <span class="service-index">03</span>
+        <span class="service-icon">{ }</span>
+        <h3>بک اند و API</h3>
+        <p>طراحی سرویس های قابل اعتماد با Nest.js و MongoDB.</p>
       </div>
     </div>
   </div>

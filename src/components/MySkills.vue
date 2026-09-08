@@ -1,8 +1,8 @@
 <template>
   <div class="content-section page-width skills-section animate-fade-in-top">
-    <div class="section-label">۰۳ / جعبه ابزار</div>
+    <div class="section-label"><span>03</span> / tech stack</div>
     <div class="section-heading">
-      <h2>مهارت هایی برای ساختن<br /><em>چیزهای بهتر.</em></h2>
+      <h2>ابزارهای من برای<br /><em>ساختن آینده.</em></h2>
       <p>تمرکز من روی ساخت رابط های کاربری دقیق و قابل اتکا است؛ از اولین ایده تا آخرین پیکسل.</p>
     </div>
     <div class="skills-grid">
