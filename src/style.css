@@ -25,6 +25,8 @@ body {
   background: #080a09;
 }
 a {
+  font-family: "Vazirmatn";
+  font-size: small;
   color: inherit;
   text-decoration: none;
   transition:
@@ -76,7 +78,6 @@ em {
 .site-nav,
 .header-contact,
 .eyebrow,
-.section-label,
 .mini-label,
 .terminal-window,
 .skill-type,
@@ -357,8 +358,8 @@ em {
 .section-label {
   margin-bottom: 3.5rem;
   color: #78857b;
-  direction: ltr;
-  font-size: 0.65rem;
+  direction: rtl;
+  font-size: 1rem;
 }
 .about-section {
   display: grid;
@@ -367,8 +368,9 @@ em {
   align-items: center;
 }
 .mini-label {
+  font-family: "Vazirmatn";
   color: #b8ff38;
-  font-size: 0.64rem;
+  font-size: 1rem;
 }
 .about-copy h2,
 .section-heading h2,
@@ -705,8 +707,9 @@ em {
 }
 @media (max-width: 430px) {
   .header-contact {
+    font-family: "Vazirmatn";
     padding: 0.6rem;
-    font-size: 0.55rem;
+    font-size: 1rem;
   }
   .glitch-title {
     font-size: 3rem;

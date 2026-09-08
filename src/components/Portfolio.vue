@@ -1,6 +1,6 @@
 <template>
   <section class="content-section page-width portfolio-section">
-    <div class="section-label"><span>04</span> / selected work</div>
+    <div class="section-label"><span>04</span> / نمونه کار های من</div>
     <div class="portfolio-heading">
       <h2>پروژه های <em>منتخب.</em></h2>
       <p>منتخبی از پروژه های واقعی و پیش نمایش های مفهومی.</p>

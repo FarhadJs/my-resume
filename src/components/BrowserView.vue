@@ -1,5 +1,5 @@
 <template>
-  <div @mouseenter="HoverCoverP" @mouseleave="HoverCoverP"
+  <div @mouseenter="HoverCoverP" @click="HoverCoverP" @mouseleave="HoverCoverP"
     class="relative z-50 lg:mt-44 overflow-hidden bg-white bg-opacity-15 w-72 h-56 lg:w-[450px] lg:h-72 rounded-t-lg rounded-b-md">
     <div ref="containerCover" class="absolute -top-10 right-0 left-0 bottom-0 z-40 transition-all duration-500"></div>
     <div class="w-full h-full bg-black bg-opacity-60">

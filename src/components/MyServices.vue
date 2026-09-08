@@ -1,6 +1,6 @@
 <template>
   <div class="content-section page-width services-section animate-fade-in-top">
-    <div class="section-label"><span>02</span> / what I do</div>
+    <div class="section-label"><span>02</span> / چه کاری میتونم انجام بدم؟</div>
     <div class="services-intro">
       <h2>از ایده تا <em>محصول.</em></h2>
       <p>برای هر مرحله از ساخت محصول دیجیتال، یک راه حل دقیق و کاربردی دارم.</p>

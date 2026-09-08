@@ -40,7 +40,7 @@ onUnmounted(() => window.removeEventListener("scroll", revealOnScroll));
         <a href="#skills"><span>02</span> مهارت ها</a>
         <a href="#work"><span>03</span> پروژه ها</a>
       </nav>
-      <a class="header-contact" href="mailto:farhadfallahi2004@outlook.com"><i></i> آماده همکاری</a>
+      <a class="header-contact" style="font-family: 'Vazirmatn';" href="mailto:farhadfallahi2004@gmail.com"><i></i> آماده همکاری</a>
     </header>
 
     <main id="top">

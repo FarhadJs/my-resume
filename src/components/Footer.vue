@@ -1,9 +1,9 @@
 <template>
   <footer class="site-footer page-width">
     <div class="footer-cta">
-      <p class="mini-label">HAVE A PROJECT?</p>
+      <p class="mini-label">آیا پروژه داری؟</p>
       <h2>بیایید چیزی<br /><em>باورنکردنی بسازیم.</em></h2>
-      <a class="primary-button" href="mailto:farhadfallahi2004@outlook.com">ارتباط با من <span>↗</span></a>
+      <a class="primary-button" href="mailto:farhadfallahi2004@gmail.com">ارتباط با من <span>↗</span></a>
     </div>
     <div class="footer-bottom">
       <span>© ۲۰۲۵ FARHAD FALLAHI</span>
